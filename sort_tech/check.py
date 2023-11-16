@@ -13,6 +13,7 @@ def straight_insertion_sort(arr):
     end=time.time()
     diff=end-start
     print("time: ",diff)
+    print(arr)
 
 
 def binary_search(arr, element, low, high):
